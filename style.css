@@ -1,0 +1,59 @@
+body{
+    background-color: #715AFF;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* figure out how to make fonts visible across rickyrav.github.io */
+@font-face {
+    font-family: 'Gilroy';
+    src: url(./fonts/gilroy-extrabold-webfont.woff) format('woff');
+    src: url(./fonts/gilroy-extrabold-webfont.woff2) format('woff2');
+    
+}
+@font-face {
+    font-family: 'Ethnocentric';
+    src: url(./fonts/ethnocentric\ rg\ it.otf) format('otf');
+}
+.text{
+    font-family: 'Gilroy';
+    color: white;
+    font-size: 3.8vw;
+}
+.threeWords{
+    margin-top: -15%;
+    font-size: 25.5px;
+    text-align: center;
+}
+.stopwatch{
+    text-align: center;
+    text-shadow: none;
+    margin-top: -8%;
+    font-size: 1em;
+    letter-spacing: 5px;
+}
+.buttons{
+    margin-top: -11%;
+}
+button{
+    border: solid 3px white;
+    color: white;
+    background:#715AFF;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.51em;
+    outline: none;
+    border-radius: 12px;
+    font-family: 'Ethnocentric';
+}
+button:hover{
+    background-color: white;
+    color: #715AFF;
+}
+#copyright{
+    font-family: 'Raleway';
+    text-align:center;
+    font-size:13px;
+    color:white;
+}
